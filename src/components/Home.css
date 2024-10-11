@@ -1,0 +1,349 @@
+.portfolio{
+    /* border: 2px solid red; */
+    height: 600px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    background-color: transparent;
+}
+.container{
+    /* border: 2px solid yellow; */
+    display: flex;
+    margin-left: 3.5%;
+    width: 90%;
+    height: 94%;
+    padding: 20px;
+}
+.left {
+    /* border: 2px solid greenyellow; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right {
+    /* border: 2px solid white; */
+    width: 50%;
+    position: relative;
+    padding: 20px;
+}
+.title {
+    /* border: 2px solid white; */
+    text-align: center;
+    height: 100%;
+    width: 80%;
+    /* padding-right: 20%; */
+}
+h2{
+    font-size: 24px;
+    margin-top: 30%;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 35%;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.circle {
+    /* outline: 2px solid palegreen; */
+    height: 90%;
+    width: 40%;
+    margin-top: 10%;
+    border-radius: 5rem;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    display: flex;
+  }
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* about-section */
+
+.header{
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.page-number{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.plus-sign{
+    margin-right: 10px;
+}  
+.content{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    height: 92%;
+    margin-bottom: 50px;
+}
+.image-container{
+    /* border: 2px solid pink; */
+    width: 60%;
+    /* height: 600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img{
+    width: 75%;
+    height: 60%;
+    border-radius: 6rem;
+    object-fit: cover;
+} 
+.text-container{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    position: relative;
+    justify-content: center;
+}
+.text-container h1{
+    font-size: 48px;
+    margin-top: 5%;
+    margin-left: 32%;
+    margin-bottom: 20px;
+}
+.text-container p{
+    text-align: justify;
+    padding: 0px 15px;
+    margin: 3%;
+    margin-top: 15%;
+    font-size: 18px;
+    line-height: 1.5;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    margin: 3%;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 2rem;
+}
+
+/* Education-section */
+
+.left-education{
+    /* border: 2px solid pink; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 22%;
+}
+.left-education h1{
+    font-size: 48px;
+    margin-bottom: 10%;
+    font-weight: bold;
+    margin-top: 60%;
+}
+.right-education{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    position: relative;
+    padding: 30px;
+}
+.page-number2{
+    display: flex;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+.right-education img{
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 90%;
+    height: 60%;
+    border-radius: 10rem;
+    object-fit: cover;
+}
+.education-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.education-entry {
+    margin-bottom: 20px;
+}  
+.education-dates {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.education-institution {
+    font-size: 1.2em;
+}
+.education-institution a{
+    text-decoration: none;
+    color: white;
+}
+.education-institution a:hover{
+    color: yellow;
+}  
+.education-degree {
+    font-size: 1.2em;
+} 
+.education-honors {
+    font-size: 1em;
+}
+
+/* project-section */
+
+.container1 , .container2{
+    /* border: 2px solid yellow; */
+    display: flex;
+    margin-left: 3.5%;
+    width: 90%;
+    height: 100%;
+    padding: 20px;
+}
+.card{
+    /* border: 2px solid white; */
+    width: 33.3%;
+    height: 100%;
+    margin: 1%;
+}
+.card-img-top{
+    border-radius: 20px;
+    height: 50%;
+    width: 100%;
+}
+.card-body{
+    /* border: 2px solid brown; */
+    margin: 2%;
+    height: 35%;
+}
+.card-body h5{
+    font-size: 1.5em;
+    text-align: center;
+}
+.card-body p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+.button{
+    border: 3px solid white;
+    margin: 3%;
+    margin-left: 33%;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 2rem;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button a:hover{
+    color: yellow;
+}
+
+/* skills-section */
+
+.container-s-1{
+     /* border: 2px d yellow; */
+     display: flex;
+     margin-left: 3.5%;
+     width: 90%;
+     height: 25%;
+     padding: 20px;
+}
+.skills-title{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.skill{
+    text-align: center;
+    margin: 1%;
+    width: 33.3%;
+    height: 100%;
+    /* border: 2px solid blue; */
+}
+.skill img{
+    margin-top: 5%;
+    height: 75px;
+    width: 125px;
+    border-radius: 25px;
+}
+.skill p a{
+    font-size: 1.5em;
+    margin-top: 8%;
+    text-decoration: none;
+    color: white;
+}
+.skill p a:hover{
+    color: yellow;
+}
+
+/* certification-section */
+
+.container3 ,.container4 , .container5 {
+    /* border: 2px solid yellow; */
+    display: flex;
+    margin-left: 3.5%;
+    width: 90%;
+    height: 70%;
+    padding: 20px;
+}
+.card1{
+    /* border: 2px solid white; */
+    width: 33.3%;
+    height: 100%;
+    margin: 1%;
+}
+.card1-img-top{
+    border-radius: 20px;
+    height: 70%;
+    width: 100%;
+}
+.card1-body{
+    /* border: 2px solid brown; */
+    margin: 2%;
+    height: 30%;
+}
+.card1-body h5{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* contact-section */
+
+.details{
+    /* border: 2px solid white; */
+    width: 50%;
+    padding: 0;
+    margin-left: 27%;
+    margin-top: 15%;
+}
+.details a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.details a:hover{
+    color: yellow;
+}
